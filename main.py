@@ -18,7 +18,9 @@ while True:
     name = input("Enter student name: ")
     print("Enter scores")
 
-    score_algebra = float(input("Algebra: "))
+    algebra = input("Algebra: ")
+    score_algebra = float(algebra)
+
     score_commSkills = float(input("Comm Skills: "))
     score_TD = float(input("TD: "))
 
